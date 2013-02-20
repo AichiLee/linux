@@ -1,0 +1,15 @@
+#!/bin/bash
+
+##################################################
+# recover software from backuped software list   #
+# installed_software.log                         #
+#                                                #
+# Weinberg, Ubuntu/Linux 11.10                   #
+# Feb. 20, 2013                                  #
+##################################################
+
+
+sudo dpkg --get-selections < installed_software.log
+sudo dselect
+
+echo "end of installation"
