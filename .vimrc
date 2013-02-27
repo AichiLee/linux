@@ -205,7 +205,7 @@ set autoindent
 set smartindent
 
 " do c-style indenting
-"set cindent
+set cindent
 
 " tab spacing (settings below are just to unify it)
 set tabstop=4
@@ -235,7 +235,7 @@ set noexpandtab
 set nofoldenable
 
 " Make folding indent sensitive/syntax sensitive
-set foldmethod=syntax
+set foldmethod=indent
 
 " Don't autofold anything (but I can still fold manually)
 set foldlevel=100
